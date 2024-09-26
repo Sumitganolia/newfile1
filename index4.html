@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+video{
+    width: 30%;
+}
+p{
+    margin: 5px 0px;
+    font-size: 30px;
+}
+a{
+    font-size:19px;
+    text-decoration: none;
+    color:white;
+    padding: 5px;
+    margin: 0px 5px;
+    background-color:#800000;
+}
+    </style>
+</head>
+<body>
+
+    <div class="main">
+    <video src="./Funny dance gif [TubeRipper.com].mp4" autoplay loop muted></video>
+    <p> Yeah tum maan gyi </p>
+    <p> tum maan gyi </p>
+    <p> tum maan gyi </p>
+<div>
+</div>
+    </div>
+</body>
+<script src="index4.js"></script>
+<script src="./confetti.js"></script>
+<script>
+    confetti.start()
+    setTimeout(()=>{
+        confetti.stop()
+    },8000)
+</script>
+</html>
